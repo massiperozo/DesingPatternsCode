@@ -1,3 +1,4 @@
+"use strict";
 //El patron de diseño Factory Method es un paron creacional que
 //proporciona una interfaz para crear objetos en una superclase
 //pero permite que las subclases alteren el tipo de objeto que se crea.

@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Factory Method (build+node)",
+      "preLaunchTask": "tsc: build - tsconfig",
+      "program": "${workspaceFolder}/dist/Creacionales/Factory Method.js",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
+    }
+    ,
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Factory Method (ts-node)",
+      "program": "${workspaceFolder}/Creacionales/Factory Method.ts",
+      "cwd": "${workspaceFolder}",
+      "runtimeArgs": ["-r", "ts-node/register"],
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
+    }
+  ]
+}
