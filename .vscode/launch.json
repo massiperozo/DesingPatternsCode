@@ -22,5 +22,16 @@
       "console": "integratedTerminal",
       "internalConsoleOptions": "neverOpen"
     }
+    ,
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Abstract Factory (ts-node)",
+      "program": "${workspaceFolder}/Creacionales/Abstract Factory.ts",
+      "cwd": "${workspaceFolder}",
+      "runtimeArgs": ["-r", "ts-node/register"],
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
+    }
   ]
 }

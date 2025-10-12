@@ -6,7 +6,8 @@
     "build": "tsc -p .",
     "start": "node ./dist/Creacionales/Factory Method.js",
     "dev:ts-node": "ts-node \"Creacionales/Factory Method.ts\"",
-    "dev:tsx": "tsx \"Creacionales/Factory Method.ts\""
+    "dev:tsx": "tsx \"Creacionales/Factory Method.ts\"",
+    "dev:abstract": "ts-node \"Creacionales/Abstract Factory.ts\""
   },
   "devDependencies": {
     "ts-node": "^10.9.2",
